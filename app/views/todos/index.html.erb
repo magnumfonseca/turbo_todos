@@ -3,7 +3,6 @@
 
   <%= render "form", todo: Todo.new %>
 
-  <%= turbo_stream_from "todos" %>
   <ul id="todos" class="divide-y list-none">
     <%= render @todos %>
   </ul>
